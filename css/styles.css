@@ -43,13 +43,13 @@ li {
   color: rgba(33, 150, 243, 1);
 }
 
-.contact-header > li > a {
+.contact > li > a {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
 }
 
-.contact-header > li > a:hover {
+.contact > li > a:hover {
   color: rgba(33, 150, 243, 1);
 }
 
@@ -95,6 +95,7 @@ h2 {
 
 .name {
   font-size: 16px;
+  font-weight: bold;
   font-weight: medium;
 }
 
@@ -116,16 +117,6 @@ address {
   font-size: 14px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 1);
-}
-
-.contact-footer {
-  font-size: 14px;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.contact-footer:hover {
-  color: rgba(33, 150, 243, 1);
 }
 
 /* ---- PAGE PORTFOLIO ---- */
