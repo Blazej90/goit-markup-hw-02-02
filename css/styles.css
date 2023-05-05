@@ -19,14 +19,14 @@ li {
   color: rgba(33, 150, 243, 1);
 }
 
-.studio-1 {
+.studio-header {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: bold;
   color: rgba(33, 33, 33, 1);
 }
 
-.studio-2 {
+.studio-footer {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: bold;
