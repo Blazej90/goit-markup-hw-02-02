@@ -43,13 +43,13 @@ li {
   color: rgba(33, 150, 243, 1);
 }
 
-.contact-header {
+.contact-header > li > a {
   font-size: 14px;
   font-weight: 500;
   color: rgba(117, 117, 117, 1);
 }
 
-.contact-header:hover {
+.contact-header > li > a:hover {
   color: rgba(33, 150, 243, 1);
 }
 
