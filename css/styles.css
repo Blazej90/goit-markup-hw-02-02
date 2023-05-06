@@ -12,25 +12,29 @@ li {
   list-style-type: none;
 }
 
-.web {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
-  color: rgba(33, 150, 243, 1);
-}
-
-.studio-header {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: bold;
-  color: rgba(33, 33, 33, 1);
-}
-
+.web,
+.studio-header,
 .studio-footer {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: bold;
-  color: rgba(255, 255, 255, 1);
+}
+
+.web {
+  color: rgba(33, 150, 243, 1);
+}
+
+:root {
+  --studio-header-color: rgba(33, 33, 33, 1);
+  --studio-footer-color: rgba(255, 255, 255, 1);
+}
+
+.studio-header {
+  color: var(--studio-header-color);
+}
+
+.studio-footer {
+  color: var(--studio-footer-color);
 }
 
 .bookmarks > li > a {
